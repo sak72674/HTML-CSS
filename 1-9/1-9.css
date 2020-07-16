@@ -6,7 +6,7 @@
 
 .clearfix:after {
 	content: "";
-	display: inline-block;
+	display: block;
 	clear: both;
 }
 
@@ -18,12 +18,10 @@ header {
 
 main {
 	width: 960px;
-	height: 300px;
 	margin: 50px auto;
 }
 
 .box {
-	height: 300px;
 	width: 300px;
 	padding: 10px;
 	background-color: #eee;
@@ -66,6 +64,7 @@ main {
 	position: absolute;
 	top: 0;
 	left: 0;
+	padding: 4px 0;
 }
 
 .title {
